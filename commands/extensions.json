@@ -1,6 +1,93 @@
 {
   "groups" : [
     {
+      "name" : "Home",
+      "path" : "home",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Elgato",
+          "path" : "elgato",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Increase brightness of Elgato Key Light by 5%.",
+              "filename" : "elgato-key-light-increase-brightness.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Increase Brightness"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Turn on Elgato Key Light.",
+              "filename" : "elgato-key-light-turn-on.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn On"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Turn off Elgato Key Light.",
+              "filename" : "elgato-key-light-turn-off.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Turn Off"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Thomas Paul Mann",
+                  "url" : "https:\/\/github.com\/thomaspaulmann"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Decrease brightness of Elgato Key Light by 5%.",
+              "filename" : "elgato-key-light-decrease-brightness.template.rb",
+              "icon" : "images\/elgato.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Elgato Key Light",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Decrease Brightness"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Conversions",
       "path" : "conversions",
       "scriptCommands" : [
@@ -166,6 +253,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Screenshot Website"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Caleb Stauffer",
+              "url" : "https:\/\/github.com\/crstauf"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Use [Peekalink.io](https:\/\/peekalink.io) API to peek specified URL.",
+          "filename" : "peekalink.template.sh",
+          "icon" : "images\/peekalink-logo.png",
+          "mode" : "fullOutput",
+          "needsConfirmation" : null,
+          "packageName" : "Internet",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Peek a link"
         },
         {
           "authors" : [
@@ -460,6 +565,30 @@
       ]
     },
     {
+      "name" : "Math",
+      "path" : "math",
+      "scriptCommands" : [
+        {
+          "authors" : [
+            {
+              "name" : "Petr Nikolaev",
+              "url" : "https:\/\/github.com\/pitnikola"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Calculate percentage increase between \"from\" and \"to\" values.",
+          "filename" : "calculate-growth.sh",
+          "icon" : "📈",
+          "mode" : "compact",
+          "needsConfirmation" : null,
+          "packageName" : "Calculate Growth",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Calculate Growth %"
+        }
+      ]
+    },
+    {
       "name" : "Dashboard",
       "path" : "dashboard",
       "scriptCommands" : [
@@ -516,6 +645,24 @@
           "refreshTime" : "20m",
           "schemaVersion" : 1,
           "title" : "Speedtest"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Clark Dinnison",
+              "url" : "https:\/\/github.com\/cdinnison"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Get current Ethereum price from CoinGecko.",
+          "filename" : "ethereum-price-usd.sh",
+          "icon" : "images\/ethereum-logo.png",
+          "mode" : "inline",
+          "needsConfirmation" : null,
+          "packageName" : "Dashboard",
+          "refreshTime" : "1h",
+          "schemaVersion" : 1,
+          "title" : "Ethereum Price"
         },
         {
           "authors" : [
@@ -2088,6 +2235,147 @@
       ]
     },
     {
+      "name" : "Password Managers",
+      "path" : "password-managers",
+      "scriptCommands" : [
+
+      ],
+      "subGroups" : [
+        {
+          "name" : "Bitwarden",
+          "path" : "bitwarden",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard.",
+              "filename" : "copy-first-matching-password.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Copy First Matching Password"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Lock a Bitwarden vault.",
+              "filename" : "lock-vault.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Lock Vault"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Search all items in a Bitwarden vault.",
+              "filename" : "search-vault-items.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "fullOutput",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Search Vault Items"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Log out of a Bitwarden vault.",
+              "filename" : "log-out.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log Out"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Unlock an authenticated Bitwarden vault.",
+              "filename" : "unlock-vault.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Unlock Vault"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Log in to a Bitwarden vault.",
+              "filename" : "log-in.template.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Log In"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Phil Salant",
+                  "url" : "https:\/\/github.com\/PSalant726"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : "Display the authentication and lock status of the user's Bitwarden vault.",
+              "filename" : "vault-status.sh",
+              "icon" : "images\/bitwarden.png",
+              "mode" : "inline",
+              "needsConfirmation" : null,
+              "packageName" : "Bitwarden",
+              "refreshTime" : "5m",
+              "schemaVersion" : 1,
+              "title" : "Vault Status"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name" : "Communication",
       "path" : "communication",
       "scriptCommands" : [
@@ -2436,6 +2724,24 @@
         {
           "authors" : [
             {
+              "name" : "Andrei Borisov",
+              "url" : "https:\/\/github.com\/andreiborisov"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : null,
+          "filename" : "kinopoisk.sh",
+          "icon" : "images\/kinopoisk.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in Kinopoisk"
+        },
+        {
+          "authors" : [
+            {
               "name" : "Zander Martineau",
               "url" : "https:\/\/zander.wtf"
             }
@@ -2468,6 +2774,24 @@
           "refreshTime" : null,
           "schemaVersion" : 1,
           "title" : "Search Netflix"
+        },
+        {
+          "authors" : [
+            {
+              "name" : "Andrei Borisov",
+              "url" : "https:\/\/github.com\/andreiborisov"
+            }
+          ],
+          "currentDirectoryPath" : null,
+          "description" : "Search in App Store app",
+          "filename" : "app-store.sh",
+          "icon" : "images\/app-store.png",
+          "mode" : "silent",
+          "needsConfirmation" : null,
+          "packageName" : "Web Searches",
+          "refreshTime" : null,
+          "schemaVersion" : 1,
+          "title" : "Search in App Store"
         },
         {
           "authors" : [
@@ -3058,6 +3382,30 @@
 
       ],
       "subGroups" : [
+        {
+          "name" : "Iterm",
+          "path" : "iterm",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Andrei Borisov",
+                  "url" : "https:\/\/github.com\/andreiborisov"
+                }
+              ],
+              "currentDirectoryPath" : null,
+              "description" : null,
+              "filename" : "iterm-run-shell-command.applescript",
+              "icon" : "images\/iterm.png",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "iTerm",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Run Shell Command"
+            }
+          ]
+        },
         {
           "name" : "Amphetamine",
           "path" : "amphetamine",
@@ -3771,5 +4119,5 @@
       ]
     }
   ],
-  "updatedAt" : "2021-01-28T15:47:45Z"
+  "updatedAt" : "2021-02-05T13:49:19Z"
 }

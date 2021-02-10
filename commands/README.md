@@ -14,6 +14,7 @@ This repository contains sample commands and documentation to write your own one
   - [Amphetamine](#amphetamine)
   - [Bear](#bear)
   - [Hazeover](#hazeover)
+  - [Iterm](#iterm)
 - [Bookmarks](#bookmarks)
 - [Browsing](#browsing)
 - [Communication](#communication)
@@ -32,12 +33,17 @@ This repository contains sample commands and documentation to write your own one
   - [Google](#google)
   - [Ip](#ip)
   - [Sentry](#sentry)
+- [Home](#home)
+  - [Elgato](#elgato)
+- [Math](#math)
 - [Media](#media)
   - [Apple Music](#apple-music)
   - [Apple Tv](#apple-tv)
   - [Cmus](#cmus)
   - [Spotify](#spotify)
 - [Navigation](#navigation)
+- [Password Managers](#password-managers)
+  - [Bitwarden](#bitwarden)
 - [System](#system)
 - [Web Searches](#web-searches)
   - [Wordpress](#wordpress)
@@ -69,6 +75,12 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hazeover/images/hazeover.png?raw=true" width="20" height="20"> | [Set Intensity](apps/hazeover/hazeover-set-intensity.applescript) | Set dimming intensity of background windows. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/hazeover/images/hazeover.png?raw=true" width="20" height="20"> | [Toggle Dimming](apps/hazeover/hazeover-toggle-dimming.applescript) | Toggle dimming of all background windows. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
+#### Iterm
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/iterm/images/iterm.png?raw=true" width="20" height="20"> | [Run Shell Command](apps/iterm/iterm-run-shell-command.applescript) | N/A | [Andrei Borisov](https://github.com/andreiborisov) |
+
 ## Bookmarks
 
 | Icon | Title | Description | Author |
@@ -82,6 +94,7 @@ This repository contains sample commands and documentation to write your own one
 | 🧭 | [Copy Current Page URL](browsing/safari-current-page-url.sh) | This script copies URL of currently opened page in Safari into clipboard. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 🧭 | [Copy Current Window URLs](browsing/safari-current-window-urls.applescript) | This script copies to clipboard all URLs from frontmost Safari window. | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/outline.png?raw=true" width="20" height="20"> | [Go to Outline](browsing/go-to-outine.sh) | Open the website at Outline | [Ronan Rodrigo Nunes](ronanrodrigo.dev) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/browsing/images/peekalink-logo.png?raw=true" width="20" height="20"> | [Peek a link](browsing/peekalink.template.sh) | Use [Peekalink.io](https://peekalink.io) API to peek specified URL. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🖼️ | [Screenshot Website](browsing/website-screenshots.sh) | Takes screenshots of the entered URL using [`pageres`](https://github.com/sindresorhus/pageres) and saves it to the Desktop. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🔗 | [Shorten URL From Clipboard](browsing/shorten-url.sh) | Shorten the URL in your Clipboard with Tiny URL. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
@@ -140,6 +153,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/bitcoin-logo.png?raw=true" width="20" height="20"> | [Bitcoin Price](dashboard/bitcoin-price-usd.sh) | Get current Bitcoin price from Coindesk. | [Tanguy Le Stradic](https://github.com/tanguyls) |
 | 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from [wttr.in](https://wttr.in/). | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/ethereum-logo.png?raw=true" width="20" height="20"> | [Ethereum Price](dashboard/ethereum-price-usd.sh) | Get current Ethereum price from CoinGecko. | [Clark Dinnison](https://github.com/cdinnison) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/nextdns.png?raw=true" width="20" height="20"> | [NextDNS Status](dashboard/nextdns-status-check.py) | Check if this machine is using NextDNS. | [Phil Salant](https://github.com/PSalant726) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed using [Speedtest](https://www.speedtest.net/apps/cli). | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
@@ -245,6 +259,23 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png?raw=true" width="20" height="20"> | [Unresolved Issues](developer-utils/sentry/sentry-unresolved-issues.template.py) | Show unresolved issues of the last 24 hours from Sentry. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/sentry/images/sentry.png?raw=true" width="20" height="20"> | [Unresolved Issues By Project](developer-utils/sentry/sentry-unresolved-issues-by-project.template.py) | Show unresolved issues in the last 24 hours (by project) from Sentry. | [Phil Salant](https://github.com/PSalant726) and [Thomas Paul Mann](https://github.com/thomaspaulmann) |
 
+## Home
+
+#### Elgato
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Decrease Brightness](home/elgato/elgato-key-light-decrease-brightness.template.rb) | Decrease brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Increase Brightness](home/elgato/elgato-key-light-increase-brightness.template.rb) | Increase brightness of Elgato Key Light by 5%. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Turn Off](home/elgato/elgato-key-light-turn-off.template.rb) | Turn off Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/home/elgato/images/elgato.png?raw=true" width="20" height="20"> | [Turn On](home/elgato/elgato-key-light-turn-on.template.rb) | Turn on Elgato Key Light. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |
+
+## Math
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| 📈 | [Calculate Growth %](math/calculate-growth.sh) | Calculate percentage increase between "from" and "to" values. | [Petr Nikolaev](https://github.com/pitnikola) |
+
 ## Media
 
 #### Apple Music
@@ -317,6 +348,20 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/dash.png?raw=true" width="20" height="20"> | [Search in Dash](navigation/search-in-dash.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/devdocs.png?raw=true" width="20" height="20"> | [Search in Devdocs](navigation/search-in-devdocs.sh) | N/A | Jax0rz |
 
+## Password Managers
+
+#### Bitwarden
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Copy First Matching Password](password-managers/bitwarden/copy-first-matching-password.sh) | Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Lock Vault](password-managers/bitwarden/lock-vault.sh) | Lock a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Log In](password-managers/bitwarden/log-in.template.sh) | Log in to a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Log Out](password-managers/bitwarden/log-out.sh) | Log out of a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Search Vault Items](password-managers/bitwarden/search-vault-items.sh) | Search all items in a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Unlock Vault](password-managers/bitwarden/unlock-vault.sh) | Unlock an authenticated Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png?raw=true" width="20" height="20"> | [Vault Status](password-managers/bitwarden/vault-status.sh) | Display the authentication and lock status of the user's Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |
+
 ## System
 
 | Icon | Title | Description | Author |
@@ -372,6 +417,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/wpengine-logo.png?raw=true" width="20" height="20"> | [Search WP Engine Installs](web-searches/search-wpengine-installs.sh) | Search [WP Engine](https://wpengine.com) installs. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search [cdnjs.com](https://cdnjs.com/) for library. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/app-store.png?raw=true" width="20" height="20"> | [Search in App Store](web-searches/app-store.sh) | Search in App Store app | [Andrei Borisov](https://github.com/andreiborisov) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/baidu.png?raw=true" width="20" height="20"> | [Search in Baidu](web-searches/search-in-baidu.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/bilibili.png?raw=true" width="20" height="20"> | [Search in Bilibili](web-searches/search-in-bilibili.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/crunchbase.png?raw=true" width="20" height="20"> | [Search in Crunchbase](web-searches/crunchbase.sh) | N/A | Raycast |
@@ -379,6 +425,7 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/ecosia.png?raw=true" width="20" height="20"> | [Search in Ecosia](web-searches/ecosia.sh) | N/A | [Sasivarnan R](https://github.com/sasivarnan) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/figma.png?raw=true" width="20" height="20"> | [Search in Figma](web-searches/figma.sh) | Search files in Figma | [Tanguy Le Stradic](https://github.com/tanguyls) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/google.png?raw=true" width="20" height="20"> | [Search in Google](web-searches/google-search.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/kinopoisk.png?raw=true" width="20" height="20"> | [Search in Kinopoisk](web-searches/kinopoisk.sh) | N/A | [Andrei Borisov](https://github.com/andreiborisov) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/mdn_light.png?raw=true" width="20" height="20"> | [Search in MDN (Mozilla) Docs by Topic](web-searches/mdn.sh) | Search in MDN (Mozilla) Docs by topic | [Jesse Traynham](https://github.com/traynham) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/taobao.png?raw=true" width="20" height="20"> | [Search in Taobao](web-searches/search-in-taobao.sh) | N/A | Jax0rz |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/twitter.png?raw=true" width="20" height="20"> | [Search in Twitter](web-searches/twitter-search.sh) | N/A | Raycast |
