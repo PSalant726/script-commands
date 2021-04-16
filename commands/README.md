@@ -36,6 +36,8 @@ This repository contains sample commands and documentation to write your own one
   - [Iterm](#iterm)
   - [Mullvad](#mullvad)
   - [Safari](#safari)
+  - [Session](#session)
+  - [Sidenotes](#sidenotes)
   - [Sip](#sip)
   - [Surfshark](#surfshark)
   - [Things](#things)
@@ -47,6 +49,7 @@ This repository contains sample commands and documentation to write your own one
   - [Cloudup](#cloudup)
   - [Emojis](#emojis)
   - [Gmail](#gmail)
+  - [Google Meet](#google-meet)
   - [Slack](#slack)
 - [Conversions](#conversions)
   - [Change Case](#change-case)
@@ -74,6 +77,7 @@ This repository contains sample commands and documentation to write your own one
 - [Password Managers](#password-managers)
   - [Bitwarden](#bitwarden)
 - [System](#system)
+  - [Audio](#audio)
   - [Vpn](#vpn)
 - [Web Searches](#web-searches)
   - [Wordpress](#wordpress)
@@ -170,6 +174,22 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Close Tabs to the Right](apps/safari/safari-close-tabs-right.applescript) | Close all tabs to the right side of the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/safari/images/safari.png" width="20" height="20"> | [Duplicate Tab](apps/safari/safari-duplicate-tab.applescript) | Duplicates and opens the currently active tab. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
+#### Session
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Abandon Session](apps/session/session-abandon.sh) | Starts a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Finish Session](apps/session/session-finish.sh) | Finishes a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Pause Session](apps/session/session-pause.sh) | Starts a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Start Previous Session](apps/session/session-start-previous.sh) | Starts a focus session in Session app with the previous intent and duration | [James Lyons](https://github.com/jamesjlyons) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/session/images/session.png" width="20" height="20"> | [Start Session](apps/session/session-start-new.sh) | Starts a focus session in Session app | [James Lyons](https://github.com/jamesjlyons) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Sidenotes
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/apps/sidenotes/images/sidenotes.png" width="20" height="20"> | [SideNotes create](apps/sidenotes/sidenotes-create-note.applescript) | Create a new note within the selected or the first SideNotes folder. | [Marcel Bochtler](https://github.com/MarcelBochtler) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
 #### Sip
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
@@ -238,6 +258,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 🔐 | [2FA from iMessages](communication/imessage-2fa.sh) | Get most recent two-factor authentication code from iMessages. | [Caleb Stauffer](https://github.com/crstauf) and [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔐 | [Generate Passphrase](communication/xkcdpass.sh) | Use [xkcdpass](https://github.com/redacted/XKCD-password-generator) to create a passphrase. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🗣 | [Say](communication/say.sh) | Convert text to audible speech. | [Felipe Turcheti](https://felipeturcheti.com) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/images/doppler-logo.png" width="20" height="20"> | [Share Secret from Clipboard](communication/share-secret-doppler.py) | Share secret securely using https://share.doppler.com/. | [Petr Nikolaev](https://github.com/PitNikola) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
 
 #### Cloudup
@@ -260,6 +281,12 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/gmail/images/google-gmail-logo.png" width="20" height="20"> | [Gmail](communication/gmail/google-gmail.sh) | Open gmail.com in the default browser | [Michael Aigner](https://github.com/tonka3000) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+
+#### Google Meet
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/communication/google-meet/images/logo.png" width="20" height="20"> | [Open Google Meet](communication/google-meet/meet.sh) | Start a Google Meet session | [Mujib Azizi](https://github.com/mujibazizi) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 #### Slack
 
@@ -284,7 +311,10 @@ This repository contains sample commands and documentation to write your own one
   | 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert hexadecimal color value to RGBA value. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📝 | [Rich Text to Markdown](conversions/rich-text-clipboard-to-markdown.sh) | Convert rich text clipboard data to GitHub Flavoured Markdown using Pandoc | [Adam Zethraeus](https://github.com/adam-zethraeus) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🦸‍♀️ | [Unicode Superscript](conversions/unicode-superscript.sh) | Convert clipboards text to fake unicode superscript | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🕰 | [Unix Time Reader From Clipboard](conversions/unix-time-reader.sh) | Display Human-Readable Date from Unix Time in Clipboard | [Francis Feng](https://github.com/francisfeng) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🌇 | [Vaporwave Text](conversions/vaporwave-text.sh) | Convert clipboard text to ｖａｐｏｒｗａｖｅ | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📅 | [What Day Is...](conversions/what-day-is.py) | Return the day of the week on which a particular date falls. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-python.png" width="20" height="20" title="Python"> |
+  | 👹 | [Zalgo Text](conversions/zalgo-text.swift) | Converts text to z̫̫̐a̳ͩl̓͂̀ͅg͔̚o̷̦̣͢ t̳͆ḛ̊͟ẍ̮̝́t̵̔ͯ͝ | [Adam Zethraeus](https://github.com/adam-zethraeus) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
 
 #### Change Case
 
@@ -328,6 +358,7 @@ This repository contains sample commands and documentation to write your own one
   | 🔑 | [Add SSH Keys (with Terminal)](developer-utils/add-ssh-keys.template.applescript) | Add one or multiple SSH keys to your SSH agent (with Terminal). | [Caleb Stauffer](https://github.com/crstauf) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🔓 | [Base64 Decode](developer-utils/base64-decode-input.sh) | Decode the base64 string  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔐 | [Base64 Encode](developer-utils/base64-encode-input.sh) | Encode any text data by using base64 | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🌐 | [Check Domain](developer-utils/check-domain.template.sh) | Check the availability of a domain with the Vercel API. | [Ted Spare](https://y.at/🤘🐊🗿🚀) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧹 | [Clear Derived Data](developer-utils/clear-derived-data.sh) | Clear the derived data of Xcode. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📝 | [Copy Lorem Ipsum](developer-utils/lorem-ipsum.sh) | Copy one paragraph of Lorem Ipsum to clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🤐 | [Create .gitignore](developer-utils/generate-git-ignore.sh) | Generates a .gitignore file via https://gitignore.io | [Roland Leth](https://runtimesharks.com) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -343,7 +374,7 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/swift.png" width="20" height="20"> | [Format Swift](developer-utils/format-swift.sh) | Use [swiftformat](https://github.com/nicklockwood/SwiftFormat) to format clipboard content. | [Dean Moore](https://github.com/moored) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔐 | [Generate Password](developer-utils/generate-password.sh) | Generates a random password and copies it to the clipboard. | [Sven Hofmann](https://github.com/hofmannsven) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | Generates a UUID and copies it to the clipboard. | Raycast |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | 🧹 | [Ignore Package Folders from Time Machine](developer-utils/ignore-package-folders-time-machine.sh) | Ignore package folders (node_modules, Pods, etc) from Time Machine backups. They might not be big in size (altough they do add up), but they usually have tens of thousands of files, making backups slower than they should be. Many files are worse than big files when copying. | [Roland Leth](https://runtimesharks.com) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🧹 | [Ignore Package Folders from Time Machine](developer-utils/ignore-package-folders-time-machine.template.sh) | Ignore package folders (node_modules, Pods, etc) from Time Machine backups. They might not be big in size (altough they do add up), but they usually have tens of thousands of files, making backups slower than they should be. Many files are worse than big files when copying. | [Roland Leth](https://runtimesharks.com) |  | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🩺 | [Is It Up?](developer-utils/is-it-up.sh) | Check if a website is up | [Jesse Claven](https://github.com/jesse-c) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🔐 | [MD5 Hash](developer-utils/md5-hash.sh) | Hashing any text data by using MD5  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/developer-utils/images/vscode.png" width="20" height="20"> | [Open Directory](developer-utils/open-folder-in-vscode.applescript) | Opens current topmost directory in VSCode | [chohner](https://github.com/chohner) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
@@ -535,36 +566,44 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Bitwarden Status](password-managers/bitwarden/status.sh) | Display the authentication and lock status of the user's Bitwarden session. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Copy First Matching Password](password-managers/bitwarden/copy-first-matching-password.sh) | Search all items in a Bitwarden vault, and copy the password of the first search result to the clipboard. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Lock Vault](password-managers/bitwarden/lock-vault.sh) | Lock a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Log In](password-managers/bitwarden/log-in.template.sh) | Log in to a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Log Out](password-managers/bitwarden/log-out.sh) | Log out of a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Create a Text Send](password-managers/bitwarden/create-text-send.sh) | Create a new text-only Bitwarden Send. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Delete a Send](password-managers/bitwarden/delete-send.sh) | Delete a Bitwarden Send. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Edit a Send](password-managers/bitwarden/edit-send.sh) | Edit an existing Bitwarden Send. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [List All Text Sends](password-managers/bitwarden/list-sends.sh) | List all Bitwarden text Sends created in the currently unlocked account. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Lock Session](password-managers/bitwarden/lock.sh) | Lock a Bitwarden session. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Log In](password-managers/bitwarden/log-in.template.sh) | Log in to Bitwarden. | [Phil Salant](https://github.com/PSalant726) | ✅ | ✅ | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Log Out](password-managers/bitwarden/log-out.sh) | Log out of Bitwarden. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Receive a Text Send](password-managers/bitwarden/receive-text-send.sh) | View the content of a text-only Bitwarden Send. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Search Vault Items](password-managers/bitwarden/search-vault-items.sh) | Search all items in a Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Unlock Vault](password-managers/bitwarden/unlock-vault.sh) | Unlock an authenticated Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Vault Status](password-managers/bitwarden/vault-status.sh) | Display the authentication and lock status of the user's Bitwarden vault. | [Phil Salant](https://github.com/PSalant726) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/password-managers/bitwarden/images/bitwarden.png" width="20" height="20"> | [Unlock Session](password-managers/bitwarden/unlock.sh) | Unlock an authenticated Bitwarden session. | [Phil Salant](https://github.com/PSalant726) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## System
 
 | Icon | Title | Description | Author | Args | Templ | Lang |
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 💻 | [Add Spacer to Dock](system/add-spacer-to-dock.sh) | Adds an invisible icon to the Dock as a separator. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | ☀️ | [Brightness](system/brightness.sh) | Set system brightness | [Antonio Dal Sie](https://github.com/exodusanto) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📅 | [Copy Availability](system/copy-availability.swift) | Copies the calendar availability of today. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 💁 | [Copy Last Download](system/copy-last-download.swift) | Copy the last downloaded file to the clipboard. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 📸 | [Copy Last Screenshot](system/copy-last-screenshot.swift) | Copies the last screenshot to the clipboard. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 📧 | [Create Email](system/new-email.sh) | Opens default email application, and creates a new email with the given inputs. | [Brandon Escamilla](https://github.com/brandonescamilla) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/new-file.png" width="20" height="20"> | [Create New File in Finder](system/create-new-file-in-finder.applescript) | Create New File in Finder is a script to make your Finder better.You can use this script to create a plain text file. | Jax0rz |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 🔕 | [Do Not Disturb](system/do-not-disturb.sh) | Do Not Disturb | [Antonio Dal Sie](https://github.com/exodusanto) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | Ejects all mounted disk images. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🗑 | [Empty Trash](system/empty-trash.applescript) | Empty the trash. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | 🔫 | [Kill AirDrop Processes](system/kill-airdrop.processes.sh) | Force kill all AirDrop processes | [Linus Salzmann](https://github.com/linus569) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📈 | [Largest CPU Process](system/largest-cpu-process.sh) | Report process with largest system CPU usage. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📈 | [Largest RAM Process](system/largest-ram-process.sh) | Report process with largest system RAM usage. | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/move-downloads-to-trash.png" width="20" height="20"> | [Move Downloads to Trash](system/move-downloads-to-trash.applescript) | N/A | Jax0rz |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 📶 | [Network Status](system/network-status.sh) | Get current network connections. | [Alexandru Turcanu](https://github.com/Pondorasti) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 📁 | [Open Folder](system/open-folder.sh) | Open a folder on macOS  | [Bin Hua](https://github.com/hzb) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | Opens the last downloaded file. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
+  | 🗃 | [Open Selection With](system/open-selection-with.applescript) | Open selected items in Finder with the given application. | [Felipe Turcheti](https://felipeturcheti.com) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 💥 | [Quit All Applications](system/quit-all-apps.swift) | Quits all running applications except Finder and Raycast. | Raycast |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 💥 | [Quit app](system/quit-app.swift) | Quits an app, by name or process id. | [Roland Leth](https://runtimesharks.com) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the wallpaper of the main display's current [Space](https://support.apple.com/guide/mac-help/work-in-multiple-spaces-mh14112/mac). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | 🎧 | [Reload CoreAudio](system/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ♻️ | [Restart](system/restart.applescript) | Restarts computer. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 💀 | [Restart the Dock](system/restart-dock.sh) | Restart the Dock | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 💀 | [Restart the Finder](system/restart-finder.sh) | Restart the Finder | [Jordi Clement](https://github.com/jordicl) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
@@ -574,22 +613,30 @@ This repository contains sample commands and documentation to write your own one
   | 🧭 | [Set Frontmost App as Default Browser](system/default-browser-front-most-app.applescript) | Set Frontmost Web Browser as Default Browser. | [Yohanes Bandung Bondowoso](https://github.com/ybbond) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🛌 | [Shut Down](system/shutdown.applescript) | Shuts down computer. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 😴 | [Sleep](system/sleep.applescript) | Puts computer to sleep. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | 🔊 | [Switch Audio to <Device Name>](system/audio-output-switch.template.applescript) | Switch audio output to desired device. | [mmerle](https://github.com/mmerle) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🧭 | [Switch Default Browser to Chrome](system/default-browser-chrome.sh) | Set Chrome as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Switch Default Browser to Chromium](system/default-browser-chromium.sh) | Set Chromium as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Switch Default Browser to Firefox](system/default-browser-firefox.sh) | Set Firefox as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🧭 | [Switch Default Browser to Safari](system/default-browser-safari.sh) | Set Safari as the default browser. | [Marc Klingen](https://github.com/marcklingen) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
-  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/airpod.png" width="20" height="20"> | [Toggle AirPods](system/toggle-airpods.template.swift) | Toggle AirPods bluetooth device | [Nichlas W. Andersen](https://github.com/itsnwa) |  | ✅ | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/bluetooth.png" width="20" height="20"> | [Toggle Bluetooth](system/bluetooth.template.applescript) | Toggle your Bluetooth connection. | [Vincent Dörig](https://github.com/vincentdoerig) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🖥 | [Toggle Flip Screen <display> to <degree>°](system/toggle-flip-screen.template.applescript) | Toggle flip (rotate) or revert the <display> to <degree>° | [Yohanes Bandung Bondowoso](https://github.com/ybbond) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 👓 | [Toggle Hidden Files](system/toggle-hidden-files.applescript) | Show and hide hidden files/folders which starts with "." (dot), i.e: .bash_rc, .ssh | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
-  | 🎙 | [Toggle Microphone](system/toggle-mic.applescript) | Toggles microphone. | [Matthew Morek](https://github.com/matthewmorek) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 🌗 | [Toggle System Appearance](system/toggle-system-appearance.applescript) | Script Command to switch between the system appearance, light and dark mode. | [Thiago Holanda](https://twitter.com/tholanda) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <picture><source srcset="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/wifi.png" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/images/wifi-dark.png" width="20" height="20"></picture> | [Toggle Wi-Fi](system/wifi.template.applescript) | Toggle your Wi-Fi connection. | [Vincent Dörig](https://github.com/vincentdoerig) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | 😴 | [Turn Off Do Not Disturb](system/dnd-off.sh) | Turn off "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 😴 | [Turn On Do Not Disturb](system/dnd-on.sh) | Turn on "do not disturb" mode. Does [not work on Big Sur](https://github.com/sindresorhus/do-not-disturb-cli/issues/2). | [Caleb Stauffer](https://github.com/crstauf) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🗑 | [Uninstall with AppCleaner](system/uninstall-with-appcleaner.applescript) | Uninstall applications with AppCleaner | [Felipe Turcheti](https://felipeturcheti.com) | ✅ |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Audio
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 🔈 | [Audio devices](system/audio/get-audio-devices.swift) | Lists all audio devices | [Roland Leth](https://runtimesharks.com) |  |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
+  | 🎧 | [Reload CoreAudio](system/audio/reload-coreaudio.sh) | Reloads CoreAudio. | [Maxim Krouk](https://github.com/maximkrouk) |  |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 🎧 | [Set audio device](system/audio/set-audio-device.swift) | Sets an input or output audio device, based on name | [Roland Leth](https://runtimesharks.com) | ✅ |  | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
+  | 🔊 | [Switch Audio to <Device Name>](system/audio/audio-output-switch.template.applescript) | Switch audio output to desired device. | [mmerle](https://github.com/mmerle) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/system/audio/images/airpod.png" width="20" height="20"> | [Toggle AirPods](system/audio/toggle-airpods.template.swift) | Toggle AirPods bluetooth device | [Nichlas W. Andersen](https://github.com/itsnwa) |  | ✅ | <img src="images/icon-swift.png" width="20" height="20" title="Swift"> |
+  | 🎙 | [Toggle Microphone](system/audio/toggle-mic.applescript) | Toggles microphone. | [Matthew Morek](https://github.com/matthewmorek) |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
 
 #### Vpn
 
@@ -605,6 +652,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
   | 📦 | [Bundlephobia cost](web-searches/bundlephobia.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | ❓ | [Caniuse.com search](web-searches/caniuse.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/hunter.png" width="20" height="20"> | [Find Email Address With Hunter](web-searches/hunter.sh) | Find emails using hunter.io | [Tanguy Le Stradic](https://github.com/tanguyls) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/giphy.png" width="20" height="20"> | [Giphy search](web-searches/giphy.sh) | N/A | [Zander Martineau](https://zander.wtf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
   | 🌍 | [Google Translate](web-searches/google-translate.rb) | Translates via Google Translate | [Roland Leth](https://runtimesharks.com) | ✅ |  | <img src="images/icon-ruby.png" width="20" height="20" title="Ruby"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/wpengine-logo.png" width="20" height="20"> | [Open WP Engine Install](web-searches/wpengine-install.sh) | Open specified [WP Engine](https://wpengine.com) install. | [Caleb Stauffer](https://github.com/crstauf) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
